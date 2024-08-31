@@ -70,14 +70,22 @@ main{
 }
 
 .page-margin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0px var(--margin_s);
+    @media screen and (min-width: 700px) {
+        max-width: 900px;
+        margin: auto;
+    }
 }
 
 .gallery-container{
     .page-margin{
         display: flex;
         flex-direction: column;
-        overflow: scroll;
+        overflow: hidden;
+        justify-content: center;
     }
     .gallery-widget{
         display: flex;
@@ -99,6 +107,16 @@ main{
         margin-bottom: var(--s);
         width: 100%;
     }
+    button{
+        margin: var(--m) 0px;
+    }
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 footer {
@@ -110,4 +128,9 @@ footer {
     color: var(--xlight);
     padding-top: var(--l);
     padding-bottom: var(--xxl);
+}
+
+.primary-button{
+    max-width: 200px;
+    padding: var(--xs);
 }
