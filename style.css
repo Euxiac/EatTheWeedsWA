@@ -63,6 +63,7 @@ main{
 
 .hero-container{
     background-color: var(--light);
+    background-image: url("./sources/geography/G001.png")
 }
 
 .section{
@@ -133,4 +134,11 @@ footer {
 .primary-button{
     max-width: 200px;
     padding: var(--xs);
+}
+
+.button-shelf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
