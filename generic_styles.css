@@ -1,0 +1,109 @@
+:root {
+    --xdark: #181917;
+    --dark: #353d2f;
+    --med: #596b5a;
+    --light: #7c9885;
+    --xlight: #efe9de;
+    --secondary_dark:#A39564;
+    --secondary_med:#eab359;
+
+    --xxl: 80px;
+    --xl: 64px;
+    --l:32px;
+    --m:24px;
+    --s: 14px;
+    --xs: 8px;
+    --xxs: 4px;
+
+    --margin_s:var(--m);
+}
+
+.section{
+    padding: var(--xl) 0px;
+}
+
+.primary-button{
+    max-width: 200px;
+    padding: var(--s) var(--m);
+    background-color: var(--dark);
+    color: var(--xlight);
+    border-style: none;
+    stroke: none;
+    border-radius: 24px;
+}
+.secondary-button{
+    max-width: 200px;
+    padding: var(--s) var(--m);
+    background-color: var(--secondary_med);
+    color: var(--xdark);
+    border-style: none;
+    stroke: none;
+    border-radius: 24px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    margin: var(--l) 0;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    margin: var(--m) 0;
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    margin: var(--m) 0;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: var(--s) 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: var(--m) 0;
+}
+
+.collapse-top-margin{
+    margin-top: 0;
+}
+
+.collapse-bottom-margin{
+    margin-bottom: 0;
+}
+
+.collapse-margins{
+    margin: 0;
+}
+
+.auto-margin{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--med);
+}
+a:hover{
+    color: var(--light);
+}

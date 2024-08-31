@@ -1,22 +1,5 @@
-:root {
-    --xdark: #181917;
-    --dark: #353d2f;
-    --med: #596b5a;
-    --light: #7c9885;
-    --xlight: #efe9de;
-    --secondary_dark:#A39564;
-    --secondary_med:#eab359;
+@import url(“./generic_styles.css”);
 
-    --xxl: 80px;
-    --xl: 64px;
-    --l:32px;
-    --m:24px;
-    --s: 14px;
-    --xs: 8px;
-    --xxs: 4px;
-
-    --margin_s:var(--m);
-}
 .brand-logo{
     display: flex;
     flex-direction: column;
@@ -32,12 +15,13 @@
 }
 
 nav {
-    padding-top: var(--m);
+    padding-top: var(--l);
     padding-bottom: var(--s);
     text-align: center;
     display:flex ;
     flex-direction: column;
     background-color: var(--dark);
+    
     ul {
         display: flex;
         justify-content: center;
@@ -53,6 +37,10 @@ nav {
         color: var(--xlight);
         text-decoration: none;
     }
+
+    p{
+        padding: var(--s) 0;
+    }
 }
 
 main{
@@ -63,11 +51,15 @@ main{
 
 .hero-container{
     background-color: var(--light);
-    background-image: url("./sources/geography/G001.png")
-}
-
-.section{
-    padding: var(--l) 0px;
+    background-image: url("./sources/images/Hero_opacity50.jpg");
+    background-position: top;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    color: var(--xlight);
+    text-shadow: var(--xdark);
 }
 
 .page-margin{
@@ -82,24 +74,14 @@ main{
 }
 
 .gallery-container{
+    background-color: var(--xlight);
     .page-margin{
         display: flex;
         flex-direction: column;
         overflow: hidden;
         justify-content: center;
     }
-    .gallery-widget{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .gallery-item{
-        display: flex;
-        flex-direction: column;
-        max-width: 200px;
-        min-width: 50px;
-        margin: var(--s);
-    }
+    
     img{display: flex;
         max-width: 200px;
         min-width: 50px;
@@ -111,6 +93,27 @@ main{
     button{
         margin: var(--m) 0px;
     }
+}
+.gallery-widget{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: var(--l);
+}
+.gallery-item{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    min-width: 50px;
+    margin: var(--s);
+    background-color: white;
+    @media screen and (min-width: 700px) {
+        padding: var(--s);
+    }
+}
+.gallery-item:hover{
+    stroke: var(--dark);
+    stroke-width: 1px;
 }
 
 .search-container{
@@ -129,11 +132,6 @@ footer {
     color: var(--xlight);
     padding-top: var(--l);
     padding-bottom: var(--xxl);
-}
-
-.primary-button{
-    max-width: 200px;
-    padding: var(--xs);
 }
 
 .button-shelf{
