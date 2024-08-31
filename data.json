@@ -1,0 +1,76 @@
+[
+    {
+        "ID": "000",
+        "Name": {
+          "Scientific_Name": "",
+          "Common_Names": []
+        },
+        "Locale": ["WACEN"],
+        "Plant_Family": "Broadleaf",
+        "Geography": { "desc": "", "image": "", "source": "" },
+        "Growing": { "desc": "", "image": "", "source": "" },
+        "Image": "",
+        "Description": "",
+        "Edibility": {
+          "Edible": true,
+          "Edible_Parts": {
+            "Flower": true,
+            "Stem": true,
+            "Leaf": true,
+            "Root": true,
+            "Source": ""
+          }
+        },
+        "Further_Reading": ["", "", ""]
+      },
+    {
+        "ID": "001",
+        "Name": {
+        "Scientific_Name": "Sonchus oleraceus",
+        "Common_Names": ["common sowthistle", "sow thistle", "smooth sow thistle", "annual sow thistle", "hare's colwort", "hare's thistle", "milky tassel", "milk thistle", "soft thistle"]
+        },
+        "Locale": ["WACEN"],
+        "Plant_Family": "Broadleaf",
+        "Geography": { "desc": "Widely distributed throghout West Australia usually growing in waste places and on disturbed ground.", "image": "/sources/G001.jpg", "source": "https://avh.ala.org.au/occurrences/search?taxa=sow+thistle#tab_mapView" },
+        "Growing": { "desc": "Spring to Autumn", "image": "/sources/S001.jpg", "source": "https://avh.ala.org.au/occurrences/search?taxa=sow+thistle#tab_chartsView" },
+        "Image": "/source/001.jpg",
+        "Description": "Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia",
+        "Edibility": {
+        "Edible": true,
+        "Description":"All parts of the plant can be eaten. From root to leaves, to flowers",
+        "Edible_Parts": {
+            "Flower": true,
+            "Stem": true,
+            "Leaf": true,
+            "Root": true,
+            "Source": "https://www.eatweeds.co.uk/sowthistle-sonchus-spp#habitat"
+        }
+        },
+        "Further_Reading": ["https://en.wikipedia.org/wiki/Sonchus_oleraceus","https://www.eatweeds.co.uk/sowthistle-sonchus-spp", "https://www.eatweeds.co.uk/sowthistle-recipe", "https://www.eattheweeds.com/sonchus-sow-thistle-in-a-pigs-eye-2/"]
+    },
+    {
+        "ID": "002",
+        "Name": {
+        "Scientific_Name": "Lactuca serriola",
+        "Common_Names": ["prickly lettuce", "milk thistle", "compass plant", "scarole"]
+        },
+        "Locale": "WACEN",
+        "Plant_Family": "Broadleaf",
+        "Geography": { "desc": "", "image": "/sources/G002.jpg", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22prickly+lettuce%22#tab_mapView" },
+        "Growing": { "desc": "Spring to Autumn", "image": "/sources/S002.jpg", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22prickly+lettuce%22#tab_chartsView" },
+        "Image": "/source/002.jpg",
+        "Description": "(not to be confused with Silybum marianum, also called milk thistle) It has a slightly fetid odor and is commonly considered a weed of orchards, roadsides and field crops. It is the closest wild relative of cultivated lettuce (Lactuca sativa L.).",
+        "Edibility": {
+        "Edible": true,
+        "Description":"Lactuca serriola can be eaten as a salad, although it has something of a bitter taste. Young leaves can be eaten raw or cooked. Older leaves can be steamed. While unsubstantial, its roots have been used as a coffee substitute.",
+        "Edible_Parts": {
+            "Flower": true,
+            "Stem": true,
+            "Leaf": true,
+            "Root": true,
+            "Source": "https://foragerchef.com/wild-lettuce/"
+        }
+        },
+        "Further_Reading": ["https://en.wikipedia.org/wiki/Lactuca_serriola","https://foragerchef.com/wild-lettuce/", "https://wildfoodgirl.com/2013/let-us-appreciate-wild-lettuce/"]
+    }
+]
