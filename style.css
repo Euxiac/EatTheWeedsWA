@@ -1,0 +1,113 @@
+:root {
+    --xdark: #181917;
+    --dark: #353d2f;
+    --med: #596b5a;
+    --light: #7c9885;
+    --xlight: #efe9de;
+    --secondary_dark:#A39564;
+    --secondary_med:#eab359;
+
+    --xxl: 80px;
+    --xl: 64px;
+    --l:32px;
+    --m:24px;
+    --s: 14px;
+    --xs: 8px;
+    --xxs: 4px;
+
+    --margin_s:var(--m);
+}
+.brand-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--xlight);
+
+    h3{
+        margin: 0;
+        padding: var(--xs) 0px;
+    }
+
+}
+
+nav {
+    padding-top: var(--m);
+    padding-bottom: var(--s);
+    text-align: center;
+    display:flex ;
+    flex-direction: column;
+    background-color: var(--dark);
+    ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        color: var(--xlight);
+    }
+    li {
+        display: inline;
+        padding: var(--s);
+    }
+    a {
+        color: var(--xlight);
+        text-decoration: none;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-container{
+    background-color: var(--light);
+}
+
+.section{
+    padding: var(--l) 0px;
+}
+
+.page-margin{
+    margin: 0px var(--margin_s);
+}
+
+.gallery-container{
+    .page-margin{
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .gallery-widget{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .gallery-item{
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        min-width: 50px;
+        margin: var(--s);
+    }
+    img{display: flex;
+        max-width: 200px;
+        min-width: 50px;
+        max-height: 200px;
+        min-height: 5px;
+        margin-bottom: var(--s);
+        width: 100%;
+    }
+}
+
+footer {
+    margin-top: var(--m);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--xdark);
+    text-align: center;
+    color: var(--xlight);
+    padding-top: var(--l);
+    padding-bottom: var(--xxl);
+}
