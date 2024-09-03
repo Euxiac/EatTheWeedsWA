@@ -118,6 +118,22 @@ main{
     }
 }
 
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+    @media screen and (max-width: 700px) {
+        grid-template-columns: auto auto ;
+    }
+}
+
+.gallery-pagination{
+    display: flex;
+    margin: var(--m);
+    justify-content: center;
+}
+
 .desktop-only{
     display: none;
     @media screen and (min-width: 700px) {
