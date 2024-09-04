@@ -11,9 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    
+    <script>
+      let pageID = '001';
+    </script>
   </head>
-  <body>
+  <body onload="updatePage(pageID)">
     <nav>
         <span class="brand-logo">
           <i class="fa-solid fa-seedling"></i>
@@ -31,34 +33,34 @@
     <div class="section entry-hero collapse-top-margin collapse-top-padding">
         <div class="page-margin">
             <div class="img-block">
-            <img src="./sources/images/I001.jfif" alt="">
+            <img id="main-image" src="./sources/thumbnails/I001.jfif" alt="">
             </div>
-            <h1 class="collapse-bottom-margin">Common Sowthistle</h1>
-            <h4 class="collapse-margins">Sonchus oleraceus, Broadleaf</h4>
-            <h5 class="collapse-bottom-margin"><b>Also called:</b> common sowthistle, sow thistle, smooth sow thistle, annual sow thistle, hare's colwort, hare's thistle, milky tassel, milk thistle, soft thistle</h5>
-            <p class="collapse-bottom-margin">Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia</p>
+            <h1 id="weed-name" class="collapse-bottom-margin">Common Sowthistle</h1>
+            <h4 id="scientific-name" class="collapse-bottom-margin">Sonchus oleraceus, Broadleaf</h4>
+            <h5 id="other-names" class="collapse-bottom-margin"><b>Also called:</b></h5>
+            <p id="description" class="collapse-bottom-margin">Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia</p>
         </div>
     </div>
     <div class="section entry-edibility collapse-top-padding">
         <div class="page-margin">
         <h2 class="collapse-bottom-margin">Edible Parts</h2>
-        <p>Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia</p>
+        <p id="edible-desc">Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia</p>
         <table class="edibility-table collapse-bottom-margin"">
             <tr>
               <td>Flowers</td>
-              <td><i class="fa-solid fa-check"></i></td>
+              <td><i id="flower-check" class="fa-solid fa-check"></i></td>
             </tr>
             <tr>
               <td>Stem</td>
-              <td><i class="fa-solid fa-check"></i></td>
+              <td><i id="stem-check" class="fa-solid fa-check"></i></td>
             </tr>
             <tr>
               <td>Leaves</td>
-              <td><i class="fa-solid fa-check"></i></td>
+              <td><i id="leaves-check" class="fa-solid fa-check"></i></td>
             </tr>
             <tr>
               <td>Roots</td>
-              <td><i class="fa-solid fa-check"></i></td>
+              <td><i id="roots-check" class="fa-solid fa-check"></i></td>
             </tr>
           </table>
         </div>
@@ -70,19 +72,19 @@
             <img src="./sources/geography/G001.png" alt="chart of georaphic availability">
             <figcaption>source:</figcaption>
           </figure>
-        <p>Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia</p>
+        <p id="geography-desc">Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia</p>
 
         <figure id="season-fig">
             <img src="./sources/seasons/S001.png" alt="chart of seasonal availability">
             <figcaption>source:</figcaption>
           </figure>
-        <p>Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia</p>
+        <p id="season-desc">Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia</p>
     </div>
     </div>
     <div class="section entry-futher-reading collapse-top-padding">
         <div class="page-margin">
         <h2>Further Reading</h2>
-        <ul>
+        <ul id="further-reading">
             <li>species of flowering plant in the tribe</li>
             <li>species of flowering plant in the tribe</li>
             <li>species of flowering plant in the tribe</li>
@@ -98,6 +100,6 @@
         <p>Copyright Christie Tanjaya 2024</p>
     </footer>
     <script src="https://kit.fontawesome.com/4cc7121f30.js" crossorigin="anonymous"></script>
-	<script src="index.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -13,7 +13,7 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     
   </head>
-  <body>
+  <body onload="generateGalleryItem()">
     <nav>
         <span class="brand-logo">
           <i class="fa-solid fa-seedling"></i>
@@ -28,71 +28,11 @@
         </ul>
     </nav>
     <main>
-        <div class="gallery-container section">
+        <div  class="gallery-container section">
             <div class="page-margin">
               <h2 class="collapse-top-margin">Browse the Gallery</h2>
-              <div class="gallery">
-                <div class="gallery-item">
-                  <a target="#" href="#">
-                    <img src="./sources/images/I001.jfif" alt="">
-                    <div class="desc">Common Sowthistle</div>
-                  </a>
-                </div>
-                <div class="gallery-item">
-                <a target="#" href="#">
-                    <img src="./sources/images/I001.jfif" alt="">
-                    <div class="desc">Common Sowthistle</div>
-                </a>
-                </div>
-                <div class="gallery-item">
-                    <a target="#" href="#">
-                    <img src="./sources/images/I001.jfif" alt="">
-                    <div class="desc">Common Sowthistle</div>
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a target="#" href="#">
-                      <img src="./sources/images/I001.jfif" alt="">
-                      <div class="desc">Common Sowthistle</div>
-                    </a>
-                  </div>
-                  <div class="gallery-item">
-                  <a target="#" href="#">
-                      <img src="./sources/images/I001.jfif" alt="">
-                      <div class="desc">Common Sowthistle</div>
-                  </a>
-                  </div>
-                  <div class="gallery-item">
-                      <a target="#" href="#">
-                      <img src="./sources/images/I001.jfif" alt="">
-                      <div class="desc">Common Sowthistle</div>
-                      </a>
-                  </div>
-                  <div class="gallery-item">
-                    <a target="#" href="#">
-                      <img src="./sources/images/I001.jfif" alt="">
-                      <div class="desc">Common Sowthistle</div>
-                    </a>
-                  </div>
-                  <div class="gallery-item">
-                  <a target="#" href="#">
-                      <img src="./sources/images/I001.jfif" alt="">
-                      <div class="desc">Common Sowthistle</div>
-                  </a>
-                  </div>
-                  <div class="gallery-item">
-                      <a target="#" href="#">
-                      <img src="./sources/images/I001.jfif" alt="">
-                      <div class="desc">Common Sowthistle</div>
-                      </a>
-                  </div>
-                  <div class="gallery-item">
-                    <a target="#" href="#">
-                    <img src="./sources/images/I001.jfif" alt="">
-                    <div class="desc">Common Sowthistle</div>
-                    </a>
-                </div>
-                  
+              <div id=gallery-population class="gallery">
+                
               </div>
               <div class="gallery-pagination">
                 <div class="auto-margin">
@@ -114,6 +54,6 @@
         <p>Copyright Christie Tanjaya 2024</p>
     </footer>
     <script src="https://kit.fontawesome.com/4cc7121f30.js" crossorigin="anonymous"></script>
-	<script src="index.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

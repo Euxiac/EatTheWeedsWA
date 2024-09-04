@@ -90,14 +90,7 @@ main{
             padding-bottom: var(--s);
         }
     }
-    img{display: flex;
-        max-width: 200px;
-        min-width: 50px;
-        max-height: 200px;
-        min-height: 5px;
-        margin-bottom: var(--s);
-        width: 100%;
-    }
+    
 }
 .gallery-widget{
     display: flex;
@@ -114,6 +107,14 @@ main{
     background-color: white;
     @media screen and (min-width: 700px) {
         padding: var(--s);
+    }
+    img{display: flex;
+        max-width: 200px;
+        min-width: 50px;
+        max-height: 180px;
+        min-height: 5px;
+        margin-bottom: var(--s);
+        width: 100%;
     }
 }
 

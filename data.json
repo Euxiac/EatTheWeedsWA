@@ -31,9 +31,9 @@
         },
         "Locale": ["WACEN"],
         "Plant_Family": "Broadleaf",
-        "Geography": { "desc": "Widely distributed throghout West Australia usually growing in waste places and on disturbed ground.", "image": "/sources/G001.jpg", "source": "https://avh.ala.org.au/occurrences/search?taxa=sow+thistle#tab_mapView" },
-        "Growing": { "desc": "Spring to Autumn", "image": "/sources/S001.jpg", "source": "https://avh.ala.org.au/occurrences/search?taxa=sow+thistle#tab_chartsView" },
-        "Image": "/source/001.jpg",
+        "Geography": { "desc": "Widely distributed throghout West Australia usually growing in waste places and on disturbed ground.", "image": "./sources/geography/G001.png", "source": "https://avh.ala.org.au/occurrences/search?taxa=sow+thistle#tab_mapView" },
+        "Growing": { "desc": "Spring to Autumn", "image": "./sources/seasons/S001.png", "source": "https://avh.ala.org.au/occurrences/search?taxa=sow+thistle#tab_chartsView" },
+        "Image": "./sources/thumbnails/I001.jfif",
         "Description": "Sonchus oleraceus is a species of flowering plant in the tribe Cichorieae of the family Asteraceae, native to Europe and Western Asia",
         "Edibility": {
         "Edible": true,
@@ -56,9 +56,9 @@
         },
         "Locale": "WACEN",
         "Plant_Family": "Broadleaf",
-        "Geography": { "desc": "", "image": "/sources/G002.jpg", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22prickly+lettuce%22#tab_mapView" },
-        "Growing": { "desc": "Spring to Autumn", "image": "/sources/S002.jpg", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22prickly+lettuce%22#tab_chartsView" },
-        "Image": "/source/002.jpg",
+        "Geography": { "desc": "Lactuca serriola is native to Europe, Asia, and north Africa, and has become naturalized elsewhere", "image": "./sources/geography/G001.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22prickly+lettuce%22#tab_mapView" },
+        "Growing": { "desc": "Spring to Autumn", "image": "./sources/seasons/S002.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22prickly+lettuce%22#tab_chartsView" },
+        "Image": "./sources/thumbnails/I002.jpg",
         "Description": "(not to be confused with Silybum marianum, also called milk thistle) It has a slightly fetid odor and is commonly considered a weed of orchards, roadsides and field crops. It is the closest wild relative of cultivated lettuce (Lactuca sativa L.).",
         "Edibility": {
         "Edible": true,
@@ -72,5 +72,30 @@
         }
         },
         "Further_Reading": ["https://en.wikipedia.org/wiki/Lactuca_serriola","https://foragerchef.com/wild-lettuce/", "https://wildfoodgirl.com/2013/let-us-appreciate-wild-lettuce/"]
+    },
+    {
+      "ID": "003",
+      "Name": {
+        "Scientific_Name": "Stellaria media",
+        "Common_Names": ["common chickweed", "chickenwort", "craches", "maruns", "winterweed"]
+      },
+      "Locale": ["WACEN"],
+      "Plant_Family": "Broadleaf",
+      "Geography": { "desc": "While found across WA, chickweed is most commonly seen in the South-West", "image": "./sources/geography/G003.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22chickweed%22#tab_mapView" },
+      "Growing": { "desc": "Growing season for chickweed is considered in the winter months", "image": "./sources/seasons/S003.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22chickweed%22#tab_chartsView" },
+      "Image": "./sources/thumbnails/I003.jpg",
+      "Description": "chickweed, is an annual flowering plant in the family Caryophyllaceae. It is native to Eurasia and naturalized throughout the world, where it is a weed of waste ground, farmland and gardens. It is sometimes grown as a salad crop or for poultry consumption.",
+      "Edibility": {
+        "Edible": true,
+        "Description":"Stellaria media is edible and nutritious, and is used as a leaf vegetable, often raw in salads. It is also eaten by chickens, wild birds, and mountain sheep. However, it is not advised for pregnant and breastfeeding mothers.",
+        "Edible_Parts": {
+          "Flower": true,
+          "Stem": true,
+          "Leaf": true,
+          "Root": false,
+          "Source": ""
+        }
+      },
+      "Further_Reading": ["https://www.eattheweeds.com/chickweed-connoisseurs-2/", "https://www.gaiasorganicgardens.com.au/chickweed-stelaria-media/#:~:text=Grows%20only%20seasonally%20in%20Perth,areas%20of%20loose%20moist%20soil.", "https://plantura.garden/uk/herbs/chickweed/chickweed-overview"]
     }
 ]
