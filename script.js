@@ -194,7 +194,7 @@ function updatePage(ID){
     document.getElementById('main-image').src = entry.Image;
     document.getElementById('weed-name').innerText = capitalizeFirstLetter(entry.Name.Common_Names[0]);
     document.getElementById('scientific-name').innerText = entry.Name.Scientific_Name;
-    document.getElementById('other-names').innerText += ` ${entry.Name.Common_Names}`;
+    document.getElementById('other-names').innerText += addSpaces(entry.Name.Common_Names);
     document.getElementById('description').innerText = entry.Description;
 
     document.getElementById('edible-desc').innerText = entry.Edibility.Description;
@@ -211,7 +211,8 @@ function updatePage(ID){
     document.getElementById('season-fig').children[1].innerText += ` ${entry.Growing.source}`;
     document.getElementById('season-desc').innerText = entry.Growing.desc;
 
-    document.getElementById('further-reading').innerText = entry.Further_Reading;
+    document.getElementById('further-reading').innerText = addSpaces(entry.Further_Reading);
+    //document.getElementById('further-reading').innerhtml = formatIntoList(entry.Further_Reading);
 }
 
 function getEntryByID(ID){
@@ -360,3 +361,19 @@ function createNewPage(ID) {
     `);
     newWindow.document.close(); // Close the document to render the content 
 } 
+
+function addSpaces(array){
+    let endString ="";
+    array.forEach(element => {
+        endString = endString + ` ${element},`;
+    });
+    return endString;
+}
+
+function formatIntoList(array){
+    let endString = "";
+    array.forEach(element => {
+        endString = endString + `<li><a href="${element}">${element}</a></li>`;
+    });
+    return endString;
+}
