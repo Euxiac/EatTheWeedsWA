@@ -13,6 +13,7 @@
         "Description": "",
         "Edibility": {
           "Edible": true,
+          "Description":"",
           "Edible_Parts": {
             "Flower": true,
             "Stem": true,
@@ -97,5 +98,55 @@
         }
       },
       "Further_Reading": ["https://www.eattheweeds.com/chickweed-connoisseurs-2/", "https://www.gaiasorganicgardens.com.au/chickweed-stelaria-media/#:~:text=Grows%20only%20seasonally%20in%20Perth,areas%20of%20loose%20moist%20soil.", "https://plantura.garden/uk/herbs/chickweed/chickweed-overview"]
+    },
+    {
+      "ID": "004",
+      "Name": {
+        "Scientific_Name": "Carpobrotus edulis",
+        "Common_Names": ["ice plant", "hottentot-fig", "sour fig", "vygie","highway ice plant"]
+      },
+      "Locale": ["WACEN"],
+      "Plant_Family": "Succulent",
+      "Geography": { "desc": "", "image": "./sources/geography/G004.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22Carpobrotus+edulis%22#tab_mapView" },
+      "Growing": { "desc": "", "image": "./sources/seasons/S004.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22Carpobrotus+edulis%22#tab_chartsView" },
+      "Image": "./sources/thumbnails/I004.jpg",
+      "Description": "Carpobrotus edulis is a creeping, mat-forming succulent species. It grows year round, with individual shoot segments growing more than 1 m (3 ft) per year. It can grow to at least 50 m (165 ft) in diameter. The leaves are a dull-green or yellow-green colour. They are only very slightly curved and have serrated sides near the tips. It is an invasive species in several parts, notably Australia, California and the Mediterranean, all of which have similar climates. The ice plant has escaped from cultivation and has become invasive, posing a serious ecological problem by forming vast monospecific zones.",
+      "Edibility": {
+        "Edible": true,
+        "Description":"The fruit is edible (as with some other members of the family Aizoaceae), as are its leaves. In South Africa the sour fig's ripe fruit are gathered and either eaten fresh or made into a very tart jam.The different parts of C. edulis are used in different forms in traditional medicine, mainly in South Africa. Mostly, the fruits and flowers are eaten raw or cooked for fungal and bacterial infections.[citation needed] The leaves can be ingested orally for digestive problems or the juice can be sucked out to help a sore throat. The juice can also be mixed into a lotion base and used for external issues such as ringworm, bruises, sunburns, and cracked lips.",
+        "Edible_Parts": {
+          "Flower": true,
+          "Stem": false,
+          "Leaf": true,
+          "Root": false,
+          "Source": ""
+        }
+      },
+      "Further_Reading": ["https://en.wikipedia.org/wiki/Carpobrotus_edulis", "https://tropical.theferns.info/viewtropical.php?id=Carpobrotus+edulis", ""]
+    },
+    {
+      "ID": "005",
+      "Name": {
+        "Scientific_Name": "Allium triquetrum",
+        "Common_Names": ["three-cornered leek","three-cornered garlic", "angled onion", "onion weed"]
+      },
+      "Locale": ["WACEN"],
+      "Plant_Family": "Broadleaf",
+      "Geography": { "desc": "Allium triquetrum is native to south-western Europe, north-western Africa, Madeira and the Canary Islands, where it grows in meadows, woodland clearings, on river banks and roadside verges. It is considered a noxious weed in Australia", "image": "./sources/geography/G005.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22Allium+triquetrum%22#tab_mapView" },
+      "Growing": { "desc": "", "image": "./sources/seasons/S005.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22Allium+triquetrum%22#tab_chartsView" },
+      "Image": "./sources/thumbnails/I005.jpg",
+      "Description": "Considered one of the best wild garlic/onion variaties to be found in Australia",
+      "Edibility": {
+        "Edible": true,
+        "Description":"It can be used in similar manner to spring onions",
+        "Edible_Parts": {
+          "Flower": true,
+          "Stem": true,
+          "Leaf": true,
+          "Root": true,
+          "Source": ""
+        }
+      },
+      "Further_Reading": ["https://www.diegobonetto.com/blog/how-to-forage-and-eat-three-corner-garlic-in-australia", "https://www.foodforest.garden/2022/02/02/snowbell-allium-triquetrum/", ""]
     }
 ]
