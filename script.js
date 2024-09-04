@@ -148,6 +148,31 @@ let data=[
         }
       },
       "Further_Reading": ["https://www.diegobonetto.com/blog/how-to-forage-and-eat-three-corner-garlic-in-australia", "https://www.foodforest.garden/2022/02/02/snowbell-allium-triquetrum/", ""]
+    },
+    {
+      "ID": "006",
+      "Name": {
+        "Scientific_Name": "Oxalis pes-caprae",
+        "Common_Names": ["sourgrass","African wood-sorrel", "Bermuda buttercup", "Bermuda sorrel", "buttercup oxalis", "Cape sorrel", "English weed", "goat's-foot", "soursob"]
+      },
+      "Locale": ["WACEN"],
+      "Plant_Family": "Broadleaf",
+      "Geography": { "desc": "", "image": "./sources/geography/G006.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22Oxalis+pes-caprae%22#tab_mapView" },
+      "Growing": { "desc": "", "image": "./sources/seasons/S006.png", "source": "https://avh.ala.org.au/occurrences/search?q=taxa%3A%22Oxalis+pes-caprae%22#tab_chartsView" },
+      "Image": "./sources/thumbnails/I006.jpg",
+      "Description": "Oxalis cernua is a less common synonym for this species. Some of the most common names for the plant reference its sour taste owing to oxalic acid present in its tissues. Indigenous to South Africa, the plant has become a pest plant in different parts of the world that is difficult to eradicate because of how it propagates through underground bulbs.",
+      "Edibility": {
+        "Edible": true,
+        "Description":"The plant is palatable and in modest quantities is reasonably harmless to humans and livestock. In South Africa it is a traditional ingredient in dishes such as waterblommetjiebredie ('water flower stew'). The lateral underground runners, which tend to be fleshy, have been eaten raw or boiled and served with milk. The leaves or roots of Oxalis pes-caprae are used in some parts of the world as a food, although the high levels of calcium oxalate in the plant may bear some risks. Such risks can be reduced if the plant parts are boiled first.",
+        "Edible_Parts": {
+          "Flower": true,
+          "Stem": false,
+          "Leaf": true,
+          "Root": true,
+          "Source": ""
+        }
+      },
+      "Further_Reading": ["https://pfaf.org/User/Plant.aspx?LatinName=Oxalis+pes-caprae#:~:text=Edible%20Uses&text=Leaves%20%2D%20raw%20or%20cooked%5B2,Flowers%20%2D%20raw%5BK%5D.", "https://tropical.theferns.info/viewtropical.php?id=Oxalis+pes-caprae", ""]
     }
 ]
 let currentEntryID= '000';
